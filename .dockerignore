@@ -1,0 +1,10 @@
+**/.git
+**/node_modules
+**/target
+**/dist
+**/.env
+**/.env.local
+**/.DS_Store
+**/Dockerfile
+**/docker-compose.yml
+**/*.md
