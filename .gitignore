@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+.kiro/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Docker
+.docker/
+
+# Database
+*.sql.bak
+
+# Backend specific
+backend/node_modules/
+backend/target/
+backend/.env
+backend/logs/
+backend/coverage/
+backend/public/uploads/
+
+# frontend-user specific
+frontendr/node_modules/
+frontend.env
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+
+# Lock files (keep pnpm-lock.yaml)
+package-lock.json
+yarn.lock
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
